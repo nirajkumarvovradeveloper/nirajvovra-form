@@ -1,57 +1,103 @@
 [
     {
-        "page_label": "Job Application Form",
+        "formType": "Personal information",
+       
         "fields": [
             {
-                "field_id": "english_name",
-                "field_label": "Name",
+                "field_id": "name.first",
+                "field_label": "First Name",
                 "field_mandatory": "yes",
-                "field_placeholder": "Enter name",
+                "field_placeholder": "Enter your first name",
                 "field_type": "text",
-                "field_value": ""
+                "field_value": "Please enter your first name",
+                "displayOrder":"1"
+            },
+            {
+                "field_id": "name.last",
+                "field_label": "Last Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your last name",
+                "field_type": "text",
+                "field_value": "Please enter your last name",
+                "displayOrder":"2"
             },
             {
                 "field_id": "email",
                 "field_label": "Email",
                 "field_mandatory": "yes",
-                "field_placeholder": "Enter email",
-                "field_type": "text"
+                "field_placeholder": "Enter your email",
+                "field_type": "email",
+                "displayOrder":"3"
             },
             {
-                "field_id": "employment",
-                "field_label": "Employment desired",
-                "field_value": "Part-Time",
+                "field_id": "address.street",
+                "field_label": "Street Address",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your street address",
+                "field_type": "street address",
+                "displayOrder":"4"
+            },
+            {
+                "field_id": "state",
+                "field_label": "State of residence",
+                "field_value": "State",
+                "field_mandatory": "yes",
+                
+                "field_option": [
+                    {
+                        "option_label": "New Jersey"
+                    },
+                    {
+                        "option_label": "New york"
+                    }
+                ],
+
+              
+                
+                "field_type": "select",
+                "displayOrder":"5"
+            },
+            {
+                "field_id": "gender",
+                "field_label": "Gender",
+                "field_value": "Gender",
                 "field_mandatory": "yes",
                 "field_options": [
                     {
-                        "option_label": "Full-Time"
+                        "option_label": "Male"
                     },
                     {
-                        "option_label": "Part-Time"
+                        "option_label": "Female"
                     }
                 ],
-                "field_type": "select"
+                "field_type": "select",
+                "displayOrder":"6"
             },
             {
-                "field_id": "contact",
-                "field_label": "Contact No.",
+                "field_id": "street",
+                "field_label": "Street Address",
                 "field_mandatory": "yes",
-                "field_placeholder": "Enter contact no.",
-                "field_type": "text"
+                "field_placeholder": "Enter street address",
+                "field_type": "text",
+                "displayOrder":"7"
             },
             {
-                "field_id": "driving_license",
-                "field_label": "I confirm to have driving license.",
+                "field_id": "complete_address",
+                "field_label": "I confirm all the information above is correct.",
                 "field_type": "checkbox",
-                "field_value": "checked"
+                "field_value": "checked",
+                "displayOrder":"9"
             },
             {
-                "field_id": "identity",
-                "field_label": "Driving License No.",
+                "field_id": "zip code",
+                "field_label": "Enter Zip Code",
                 "field_mandatory": "yes",
-                "field_placeholder": "e.g. 012 345 678",
-                "field_type": "text"
+                "field_placeholder": "12345",
+                "field_type": "text",
+                "displayOrder":"8"
             }
         ]
     }
+    
+    
 ]
