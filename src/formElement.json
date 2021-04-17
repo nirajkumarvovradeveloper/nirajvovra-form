@@ -43,14 +43,7 @@
                 "field_value": "State",
                 "field_mandatory": "yes",
                 
-                "field_option": [
-                    {
-                        "option_label": "New Jersey"
-                    },
-                    {
-                        "option_label": "New york"
-                    }
-                ],
+                "field_options": [{"option_label":"Alabama"},{"option_label":"Alaska"},{"option_label":"American Samoa"},{"option_label":"Arizona"},{"option_label":"Arkansas"},{"option_label":"California"},{"option_label":"Colorado"},{"option_label":"Connecticut"},{"option_label":"Delaware"},{"option_label":"District of Columbia"},{"option_label":"Federated States of Micronesia"},{"option_label":"Florida"},{"option_label":"Georgia"},{"option_label":"Guam"},{"option_label":"Hawaii"},{"option_label":"Idaho"},{"option_label":"Illinois"},{"option_label":"Indiana"},{"option_label":"Iowa"},{"option_label":"Kansas"},{"option_label":"Kentucky"},{"option_label":"Louisiana"},{"option_label":"Maine"},{"option_label":"Marshall Islands"},{"option_label":"Maryland"},{"option_label":"Massachusetts"},{"option_label":"Michigan"},{"option_label":"Minnesota"},{"option_label":"Mississippi"},{"option_label":"Missouri"},{"option_label":"Montana"},{"option_label":"Nebraska"},{"option_label":"Nevada"},{"option_label":"New Hampshire"},{"option_label":"New Jersey"},{"option_label":"New Mexico"},{"option_label":"New York"},{"option_label":"North Carolina"},{"option_label":"North Dakota"},{"option_label":"Northern Mariana Islands"},{"option_label":"Ohio"},{"option_label":"Oklahoma"},{"option_label":"Oregon"},{"option_label":"Palau"},{"option_label":"Pennsylvania"},{"option_label":"Puerto Rico"},{"option_label":"Rhode Island"},{"option_label":"South Carolina"},{"option_label":"South Dakota"},{"option_label":"Tennessee"},{"option_label":"Texas"},{"option_label":"Utah"},{"option_label":"Vermont"},{"option_label":"Virgin Island"},{"option_label":"Virginia"},{"option_label":"Washington"},{"option_label":"West Virginia"},{"option_label":"Wisconsin"},{"option_label":"Wyoming"}],
 
               
                 

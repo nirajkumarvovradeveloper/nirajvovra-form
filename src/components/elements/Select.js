@@ -19,4 +19,4 @@ const Select = ({ field_id, field_label, field_placeholder, field_value, field_o
     )
 }
 
-export default Select
+export default Select;
