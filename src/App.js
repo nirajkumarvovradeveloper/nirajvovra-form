@@ -9,7 +9,7 @@ function App() {
     setElements(formJSON[0])
 
   }, [])
-  const { fields, page_label } = elements ?? {}
+  const { fields, formType } = elements ?? {}
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -39,7 +39,7 @@ function App() {
   return (
     <FormContext.Provider value={{ handleChange }}>
       <div className="App container">
-        <h3>{page_label}</h3>
+        <h3>{formType}</h3>
         <form>
           {fields ? fields.map((field, i) => <Element key={i} field={field} />) : null}
           <button type="submit" className="btn btn-primary" onClick={(e) => handleSubmit(e)}>Submit</button>

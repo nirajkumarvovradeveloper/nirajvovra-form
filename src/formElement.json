@@ -79,14 +79,6 @@
                 "field_label": "I confirm all the information above is correct.",
                 "field_type": "checkbox",
                 "field_value": "checked",
-                "displayOrder":"9"
-            },
-            {
-                "field_id": "zip code",
-                "field_label": "Enter Zip Code",
-                "field_mandatory": "yes",
-                "field_placeholder": "12345",
-                "field_type": "text",
                 "displayOrder":"8"
             }
         ]
